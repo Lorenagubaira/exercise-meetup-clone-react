@@ -1,5 +1,8 @@
 {
-	"title" : "The Meetup.com Clone using react.js",
+	"title" : {
+		"us":"Meetup Clone with Context API",
+		"es":"Clon de Meetup con API de contexto"
+	},
 	"slug" : "meetup-clone-react",
 	"status": "published",
 	"solution": "https://github.com/breatheco-de/MeetupClone",
@@ -9,8 +12,10 @@
 	"technologies": ["react.js", "html/css"],
 	"syntax": "react.js",
 	"duration" : 36,
-	"template_url": "https://github.com/4GeeksAcademy/react-hello-webapp",
-	"description" : "Use React and HTTP Fetch to create a Meetup.com clone",
+	"description" : {
+		"es":"Crea un clon de Meetup.com usando React, React Hooks y Context API. Implementa la navegación de eventos, funcionalidad de RSVP y asociaciones de grupos. Utiliza React Router para la navegación y muestra datos dinámicamente con Context.",
+		"us":"Build a Meetup.com clone using React, React Hooks, and Context API. Implement event browsing, RSVP functionality, and group associations. Use React Router for navigation and fetch data dynamically with Context."
+	},
 	"talents": [
 		{ "badge": "tag-master", "points": 10 },
 		{ "badge": "select-everything", "points": 5 },
@@ -31,5 +36,8 @@
 		{ "badge": "model-master", "points": 20 }
 	],
     "autoPlay": false,
-    "projectType": "project"
+    "projectType": "project",
+	"telemetry": {
+	  "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=200"
+	  }
 }

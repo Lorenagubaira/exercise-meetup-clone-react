@@ -130,7 +130,7 @@ const MyView = () => {
 
 Todo tu Fetch/AJAX estará en la sección `useEffect()` del archivo appContext.jsx.
 
-<onlyfor saas="false" withBanner="false">
+<how-to-start>
 	
 ## 🌱  Cómo iniciar este proyecto
 
@@ -159,4 +159,4 @@ $ git clone https://github.com/4GeeksAcademy/react-hello-webapp
 > _"El momento más espantoso es siempre antes de empezar."_
 > -_Stephen King_
 
-</onlyfor>
+</how-to-start>
